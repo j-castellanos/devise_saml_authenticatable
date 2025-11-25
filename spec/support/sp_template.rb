@@ -74,7 +74,7 @@ after_bundle do
   config.saml_configure do |settings|
     settings.assertion_consumer_service_url = "http://localhost:8020/users/saml/auth"
     settings.sp_entity_id = "http://localhost:8020/saml/metadata"
-    settings.idp_cert_fingerprint = "9E:65:2E:03:06:8D:80:F2:86:C7:6C:77:A1:D9:14:97:0A:4D:F4:4D"
+    settings.idp_cert_fingerprint = "81:AD:2F:4C:60:68:1D:60:14:50:D8:3E:E1:91:2E:25:6A:4D:C2:33"
     settings.name_identifier_format = "urn:oasis:names:tc:SAML:2.0:nameid-format:transient"
   end
 end
